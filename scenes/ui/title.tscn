@@ -1,0 +1,149 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Theme" path="res://resources/ui_theme.tres" id="1"]
+
+[ext_resource type="Font" path="res://resources/title_font.tres" id="2"]
+
+[node name="Title" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1")
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0.014,0.035,0.06,0.76)
+
+[node name="Eyebrow" type="Label" parent="."]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 62.0
+offset_right = 544.0
+offset_bottom = 78.0
+mouse_filter = 2
+text = "A SMALL JOURNEY BENEATH THE STARS"
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+
+[node name="Logo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 83.0
+offset_right = 592.0
+offset_bottom = 136.0
+mouse_filter = 2
+text = "星灯りの約束"
+theme_override_font_sizes/font_size = 36
+theme_override_colors/font_color = Color(0.94,0.93,0.86,1)
+theme_override_fonts/font = ExtResource("2")
+
+[node name="EnglishTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 143.0
+offset_right = 526.0
+offset_bottom = 162.0
+mouse_filter = 2
+text = "A  P R O M I S E  I N  S T A R L I G H T"
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+
+[node name="Rule" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 178.0
+offset_right = 92.0
+offset_bottom = 179.0
+mouse_filter = 2
+color = Color(0.91,0.79,0.53,1)
+
+[node name="Description" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 192.0
+offset_right = 526.0
+offset_bottom = 233.0
+mouse_filter = 2
+text = "消えた灯りを、もう一度。\nティナとロックの、小さな冒険。"
+theme_override_font_sizes/font_size = 13
+
+[node name="Buttons" type="Control" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 251.0
+offset_right = 409.0
+offset_bottom = 285.0
+mouse_filter = 2
+
+[node name="New" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 173.0
+offset_bottom = 32.0
+text = "はじめから  →"
+mouse_default_cursor_shape = 2
+
+[node name="Continue" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = 185.0
+offset_top = 0.0
+offset_right = 327.0
+offset_bottom = 32.0
+text = "つづきから"
+mouse_default_cursor_shape = 2
+
+[node name="Status" type="Label" parent="."]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 290.0
+offset_right = 525.0
+offset_bottom = 310.0
+mouse_filter = 2
+text = ""
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+
+[node name="Controls" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 323.0
+offset_right = 576.0
+offset_bottom = 340.0
+mouse_filter = 2
+text = "矢印 / WASD  移動      Z / ENTER  決定      ESC  記録帳"
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.58,0.68,0.72,1)
+
+[node name="Edition" type="Label" parent="."]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 83.0
+offset_right = 604.0
+offset_bottom = 128.0
+mouse_filter = 2
+text = "CHAPTER 01\n星のかけら"
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+horizontal_alignment = 2
+
+[node name="Credit" type="Label" parent="."]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 338.0
+offset_right = 626.0
+offset_bottom = 350.0
+mouse_filter = 2
+text = "FFVI SPRITE STUDY  /  GODOT"
+theme_override_font_sizes/font_size = 8
+theme_override_colors/font_color = Color(0.58,0.68,0.72,1)
+horizontal_alignment = 2

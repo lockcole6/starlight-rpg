@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/interactable.gd" id="1"]
+
+[ext_resource type="Texture2D" path="res://assets/art/shadow.png" id="2"]
+
+[ext_resource type="Texture2D" path="res://assets/art/mog.png" id="3"]
+
+[ext_resource type="Theme" path="res://resources/ui_theme.tres" id="4"]
+
+[sub_resource type="CircleShape2D" id="Detection"]
+radius = 15.0
+
+[sub_resource type="RectangleShape2D" id="Feet"]
+size = Vector2(12, 8)
+
+[node name="Npc" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1")
+kind = "talk"
+
+[node name="Shadow" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+texture = ExtResource("2")
+
+[node name="Appearance" type="Sprite2D" parent="."]
+position = Vector2(0, -11)
+texture = ExtResource("3")
+
+[node name="Detection" type="CollisionShape2D" parent="."]
+shape = SubResource("Detection")
+
+[node name="Body" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 2
+
+[node name="Feet" type="CollisionShape2D" parent="Body"]
+position = Vector2(0, -3)
+shape = SubResource("Feet")
+
+[node name="Marker" type="Label" parent="."]
+offset_left = -45.0
+offset_top = -43.0
+offset_right = 45.0
+offset_bottom = -25.0
+horizontal_alignment = 1
+text = "!"
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)

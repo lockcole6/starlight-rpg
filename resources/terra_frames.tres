@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=14 format=3]
+[ext_resource type="Texture2D" path="res://assets/art/terra_walk.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="down0"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 24, 32)
+
+[sub_resource type="AtlasTexture" id="down1"]
+atlas = ExtResource("1")
+region = Rect2(24, 0, 24, 32)
+
+[sub_resource type="AtlasTexture" id="down2"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 24, 32)
+
+[sub_resource type="AtlasTexture" id="left0"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 24, 32)
+
+[sub_resource type="AtlasTexture" id="left1"]
+atlas = ExtResource("1")
+region = Rect2(24, 32, 24, 32)
+
+[sub_resource type="AtlasTexture" id="left2"]
+atlas = ExtResource("1")
+region = Rect2(48, 32, 24, 32)
+
+[sub_resource type="AtlasTexture" id="right0"]
+atlas = ExtResource("1")
+region = Rect2(0, 64, 24, 32)
+
+[sub_resource type="AtlasTexture" id="right1"]
+atlas = ExtResource("1")
+region = Rect2(24, 64, 24, 32)
+
+[sub_resource type="AtlasTexture" id="right2"]
+atlas = ExtResource("1")
+region = Rect2(48, 64, 24, 32)
+
+[sub_resource type="AtlasTexture" id="up0"]
+atlas = ExtResource("1")
+region = Rect2(0, 96, 24, 32)
+
+[sub_resource type="AtlasTexture" id="up1"]
+atlas = ExtResource("1")
+region = Rect2(24, 96, 24, 32)
+
+[sub_resource type="AtlasTexture" id="up2"]
+atlas = ExtResource("1")
+region = Rect2(48, 96, 24, 32)
+
+[resource]
+animations = [{"frames": [{"duration": 1.0, "texture": SubResource("down1")}, {"duration": 1.0, "texture": SubResource("down0")}, {"duration": 1.0, "texture": SubResource("down1")}, {"duration": 1.0, "texture": SubResource("down2")}], "loop": true, "name": &"down", "speed": 8.0}, {"frames": [{"duration": 1.0, "texture": SubResource("left1")}, {"duration": 1.0, "texture": SubResource("left0")}, {"duration": 1.0, "texture": SubResource("left1")}, {"duration": 1.0, "texture": SubResource("left2")}], "loop": true, "name": &"left", "speed": 8.0}, {"frames": [{"duration": 1.0, "texture": SubResource("right1")}, {"duration": 1.0, "texture": SubResource("right0")}, {"duration": 1.0, "texture": SubResource("right1")}, {"duration": 1.0, "texture": SubResource("right2")}], "loop": true, "name": &"right", "speed": 8.0}, {"frames": [{"duration": 1.0, "texture": SubResource("up1")}, {"duration": 1.0, "texture": SubResource("up0")}, {"duration": 1.0, "texture": SubResource("up1")}, {"duration": 1.0, "texture": SubResource("up2")}], "loop": true, "name": &"up", "speed": 8.0}]

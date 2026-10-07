@@ -1,0 +1,51 @@
+星灯りの約束 / A Promise in Starlight
+
+Graphics: Final Fantasy VI (SNES), Square / Square Enix.
+User-selected source: https://www.spriters-resource.com/snes/ff6/
+The original downloaded sheets are preserved in assets/sources.
+Artwork remains attributable to its original rights holders.
+
+Actually used in the game:
+Terra Branford — Unknown; contributions by daemoth, Mister Ton
+https://www.spriters-resource.com/snes/ff6/asset/6707/
+
+Locke Cole — Unknown; contributions by daemoth, Mister Ton
+https://www.spriters-resource.com/snes/ff6/asset/6666/
+
+Mog — Unknown; contributions by daemoth, Mister Ton
+https://www.spriters-resource.com/snes/ff6/asset/6680/
+
+NPCs (Male)
+https://www.spriters-resource.com/snes/ff6/asset/54688/
+
+Village Exterior tiles
+https://www.spriters-resource.com/snes/ff6/asset/541479/
+
+Thamasa (Exterior) map
+https://www.spriters-resource.com/snes/ff6/asset/64309/
+
+Enemies (World of Balance)
+https://www.spriters-resource.com/snes/ff6/asset/54613/
+
+Battle Backgrounds (USA) — daemoth; contributions by Gravrain
+https://www.spriters-resource.com/snes/ff6/asset/54685/
+
+Additional sheets inspected during development:
+Phantom Forest tiles
+https://www.spriters-resource.com/snes/ff6/asset/541462/
+Icons, Font, & Menu
+https://www.spriters-resource.com/snes/ff6/asset/54693/
+
+Original game code, Japanese mini-quest, UI arrangement, utility light and
+shadow textures, simple procedural BGM and sound effects: this project.
+Music does not include recordings or melodies from Final Fantasy VI.
+Bundled fonts (SIL Open Font License 1.1):
+M PLUS 1p Medium — M+ FONTS PROJECT / Coji Morishita
+https://github.com/google/fonts/tree/main/ofl/mplus1p
+License: assets/fonts/MPLUS1p-OFL.txt
+Shippori Mincho SemiBold — The Shippori Mincho Project Authors
+https://github.com/google/fonts/tree/main/ofl/shipporimincho
+License: assets/fonts/ShipporiMincho-OFL.txt
+
+Godot Engine: https://godotengine.org/ (MIT license).
+Full per-sheet source URLs: assets/sources/manifest.json.

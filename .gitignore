@@ -1,0 +1,12 @@
+.godot/
+.tools/
+build/
+export_templates/
+feature_profiles/
+script_templates/
+text_editor_themes/
+*.tmp
+*.log
+tests/output/test_save.json
+tests/output/*.png.import
+tools/previews/

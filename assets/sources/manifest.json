@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Terra Branford",
+    "file": "terra.gif",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/6707/",
+    "image_url": "https://www.spriters-resource.com/media/assets/7/6707.gif?updated=1755472428",
+    "contributors": "Unknown, daemoth, Mister Ton"
+  },
+  {
+    "name": "Village Exterior",
+    "file": "village.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/541479/",
+    "image_url": "https://www.spriters-resource.com/media/assets/522/541479.png?updated=1775916175"
+  },
+  {
+    "name": "Locke Cole",
+    "file": "locke.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/6666/",
+    "image_url": "https://www.spriters-resource.com/media/assets/6/6666.png?updated=1755472428",
+    "contributors": "Unknown, daemoth, Mister Ton"
+  },
+  {
+    "name": "Mog",
+    "file": "mog.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/6680/",
+    "image_url": "https://www.spriters-resource.com/media/assets/6/6680.png?updated=1755472428",
+    "contributors": "Unknown, daemoth, Mister Ton"
+  },
+  {
+    "name": "Phantom Forest",
+    "file": "forest.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/541462/",
+    "image_url": "https://www.spriters-resource.com/media/assets/522/541462.png?updated=1775560421",
+    "contributors": "See source page"
+  },
+  {
+    "name": "Enemies (World of Balance)",
+    "file": "enemies.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/54613/",
+    "image_url": "https://www.spriters-resource.com/media/assets/51/54613.png?updated=1775839986",
+    "contributors": "See source page"
+  },
+  {
+    "name": "Battle Backgrounds (USA)",
+    "file": "battle_backgrounds.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/54685/",
+    "image_url": "https://www.spriters-resource.com/media/assets/52/54685.png?updated=1775918240",
+    "contributors": "daemoth, Gravrain"
+  },
+  {
+    "name": "Icons, Font, & Menu",
+    "file": "menu.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/54693/",
+    "image_url": "https://www.spriters-resource.com/media/assets/52/54693.png?updated=1755473108",
+    "contributors": "See source page"
+  },
+  {
+    "name": "NPCs (Male)",
+    "file": "npcs.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/54688/",
+    "image_url": "https://www.spriters-resource.com/media/assets/52/54688.png?updated=1755473108",
+    "contributors": "See source page"
+  },
+  {
+    "name": "Thamasa (Exterior)",
+    "file": "thamasa.png",
+    "page": "https://www.spriters-resource.com/snes/ff6/asset/64309/",
+    "image_url": "https://www.spriters-resource.com/media/assets/61/64309.png?updated=1755473488",
+    "contributors": "See source page"
+  }
+]

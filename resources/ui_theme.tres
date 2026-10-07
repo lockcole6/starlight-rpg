@@ -1,0 +1,30 @@
+[gd_resource type="Theme" load_steps=9 format=3]
+[ext_resource type="Font" path="res://resources/ui_font.tres" id="1"]
+[ext_resource type="StyleBox" path="res://resources/button.tres" id="2"]
+[ext_resource type="StyleBox" path="res://resources/hover.tres" id="3"]
+[ext_resource type="StyleBox" path="res://resources/focus.tres" id="4"]
+[ext_resource type="StyleBox" path="res://resources/panel.tres" id="5"]
+[ext_resource type="StyleBox" path="res://resources/subtle.tres" id="6"]
+[ext_resource type="StyleBox" path="res://resources/bar_bg.tres" id="7"]
+[ext_resource type="StyleBox" path="res://resources/bar_fill.tres" id="8"]
+[resource]
+default_font = ExtResource("1")
+default_font_size = 13
+Label/colors/font_color = Color(0.94,0.94,0.87,1)
+Label/colors/font_outline_color = Color(0.025,0.045,0.07,1)
+Label/constants/outline_size = 2
+Button/colors/font_color = Color(0.89,0.89,0.81,1)
+Button/colors/font_hover_color = Color(1,0.91,0.67,1)
+Button/colors/font_focus_color = Color(1,0.92,0.69,1)
+Button/colors/font_disabled_color = Color(0.34,0.43,0.45,1)
+Button/styles/normal = ExtResource("2")
+Button/styles/hover = ExtResource("3")
+Button/styles/pressed = ExtResource("3")
+Button/styles/focus = ExtResource("4")
+Button/styles/disabled = ExtResource("6")
+Panel/styles/panel = ExtResource("5")
+ProgressBar/styles/background = ExtResource("7")
+ProgressBar/styles/fill = ExtResource("8")
+RichTextLabel/colors/default_color = Color(0.93,0.94,0.89,1)
+RichTextLabel/constants/normal_outline_size = 1
+RichTextLabel/constants/line_separation = 3

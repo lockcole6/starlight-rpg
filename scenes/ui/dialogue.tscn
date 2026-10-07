@@ -1,0 +1,102 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Theme" path="res://resources/ui_theme.tres" id="1"]
+
+[ext_resource type="Script" path="res://scripts/dialogue.gd" id="2"]
+
+[ext_resource type="StyleBox" path="res://resources/panel.tres" id="3"]
+
+[ext_resource type="Texture2D" path="res://assets/art/mog.png" id="4"]
+
+[sub_resource type="StyleBoxEmpty" id="Invisible"]
+
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 235.0
+offset_right = 626.0
+offset_bottom = 347.0
+mouse_filter = 2
+theme_override_styles/panel = ExtResource("3")
+
+[node name="Speaker" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 8.0
+offset_right = 418.0
+offset_bottom = 28.0
+mouse_filter = 2
+text = "モグ"
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+
+[node name="Portrait" type="TextureRect" parent="Panel"]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 35.0
+offset_right = 62.0
+offset_bottom = 87.0
+mouse_filter = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="RichTextLabel" parent="Panel"]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 34.0
+offset_right = 586.0
+offset_bottom = 92.0
+mouse_filter = 2
+bbcode_enabled = true
+text = "ようこそ、星灯りの村へ。"
+scroll_active = false
+theme_override_font_sizes/normal_font_size = 13
+
+[node name="Continue" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 434.0
+offset_top = 90.0
+offset_right = 594.0
+offset_bottom = 106.0
+mouse_filter = 2
+text = "Z / ENTER 次へ"
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.58,0.68,0.72,1)
+horizontal_alignment = 2
+
+[node name="Page" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 91.0
+offset_right = 88.0
+offset_bottom = 104.0
+mouse_filter = 2
+text = "1 / 2"
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.58,0.68,0.72,1)
+
+[node name="Next" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 612.0
+offset_bottom = 112.0
+text = ""
+mouse_default_cursor_shape = 2
+focus_mode = 0
+theme_override_styles/normal = SubResource("Invisible")
+theme_override_styles/hover = SubResource("Invisible")
+theme_override_styles/pressed = SubResource("Invisible")

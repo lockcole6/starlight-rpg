@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.gd text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.png binary
+*.gif binary
+*.wav binary
+*.ttf binary

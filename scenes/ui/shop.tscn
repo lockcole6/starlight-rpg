@@ -1,0 +1,83 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Theme" path="res://resources/ui_theme.tres" id="1"]
+
+[ext_resource type="StyleBox" path="res://resources/panel.tres" id="2"]
+
+[node name="Shop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1")
+
+[node name="Dim" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0.01,0.03,0.06,0.67)
+
+[node name="Card" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 67.0
+offset_right = 479.0
+offset_bottom = 294.0
+mouse_filter = 2
+theme_override_styles/panel = ExtResource("2")
+
+[node name="Title" type="Label" parent="Card"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 14.0
+offset_right = 296.0
+offset_bottom = 43.0
+mouse_filter = 2
+text = "旅人の道具屋"
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.91,0.79,0.53,1)
+
+[node name="Stock" type="Label" parent="Card"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 59.0
+offset_right = 297.0
+offset_bottom = 152.0
+mouse_filter = 2
+text = ""
+theme_override_font_sizes/font_size = 13
+
+[node name="Message" type="Label" parent="Card"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 158.0
+offset_right = 302.0
+offset_bottom = 179.0
+mouse_filter = 2
+text = "旅のお供に、ポーションはいかが？"
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.58,0.68,0.72,1)
+
+[node name="Buy" type="Button" parent="Card"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 188.0
+offset_right = 185.0
+offset_bottom = 214.0
+text = "買う  25 G"
+mouse_default_cursor_shape = 2
+
+[node name="Close" type="Button" parent="Card"]
+layout_mode = 0
+offset_left = 199.0
+offset_top = 188.0
+offset_right = 294.0
+offset_bottom = 214.0
+text = "閉じる"
+mouse_default_cursor_shape = 2
